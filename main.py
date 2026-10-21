@@ -37,9 +37,9 @@ textReprintFrequency = 16
 scanAveragingCount = 20
 scanRateRecalculationFrequency = 4
 
+
 allowedHostnamesPattern = "|".join([".*" + h.replace(".", "\\.") for h in allowedHostnames])
 disallowedExtensionsPattern = "|".join([".*\\." + h.replace(".", "\\.") for h in disallowedExtensions])
-
 
 rescanErrorUrls = "-e" in sys.argv
 
